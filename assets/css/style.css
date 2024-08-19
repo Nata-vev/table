@@ -4,32 +4,67 @@
   padding: 0;
 }
 
+th {
+  padding: 0 0 20px 0;
+}
+
+td {
+  border: 1px solid #dcdc;
+}
 .table {
   border-collapse: collapse;
-  font-size: 20px;
   text-align: center;
-  background-color: #E0E0E0;
-  border: 1px solid darkblue;
+  font-size: 25px;
+  font-weight: bold;
   width: 96%;
-  min-height: 90vh;
-  margin: 0 2px 0 2px;
+  min-height: 96vh;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 30px;
 }
 
 .thead {
   color: #fff;
-background-image: linear-gradient( to right, rgb(118, 151, 179), rgb(58, 58, 112), rgb(83, 83, 177), rgb(41, 41, 99), rgb(2, 2, 37)
-);
-}
-.dollars{
-font-size: 30px;
+  background: linear-gradient(
+    to right,
+    rgb(118, 151, 179),
+    rgb(58, 58, 112),
+    rgb(83, 83, 177),
+    rgb(41, 41, 99),
+    rgb(2, 2, 37));
 }
 
-.tbody {
+.head-text {
+  font-size: 30px;
 }
 
-.tfoot {
+.th-plan {
+  padding: 50px;
 }
+
+.dollars {
+  font-size: 45px;
+}
+
+.first-col {
+  text-align: left;
+  padding-left: 50px;
+}
+
 .button {
-  padding: 10px;
-  background-color: #E0E0E0;
+  padding: 15px;
+  background-color: #e0e0e0;
+  font-size: large;
+  width: 50%;
+  margin-bottom: 20px;
+  font-weight: inherit;
+  margin-top: 20px;
+}
+
+.dark-gray {
+  background: #dcdcdc;
+}
+
+.light-gray {
+  background: #ebe7e7;
 }
