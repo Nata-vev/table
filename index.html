@@ -1,88 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>table</title>
   </head>
   <body>
     <table class="table">
-      
       <thead class="thead">
         <tr>
-          <th spoon="row" rowspan="3" class="head-text">Choose your plane</th>
-          <th scoop="col" class="head-text th-plan">starter</th>
-          <th scoop="col" class="head-text th-plan">econom</th>
-          <th scoop="col" class="head-text th-plan">standart</th>
-          <th scoop="col" class="head-text th-plan">professional</th>
-        </tr>
-        <tr>
-          <th scoop="col" class="dollars head-text">$10</th>
-          <th scoop="col" class="dollars head-text">$30</th>
-          <th scoop="col" class="dollars head-text">$59</th>
-          <th scoop="col" class="dollars head-text">$99</th>
-        </tr>
-        <tr>
-          <th scoope="col" class="head-text">per month</th>
-          <th scoope="col" class="head-text">per month</th>
-          <th scoope="col" class="head-text">per month</th>
-          <th scoope="col" class="head-text">per month</th>
+          <th scope="col" class="head-text">Choose your plane</th>
+          <th scoop="col" class="head-text">
+            <p class="head-text">starter</p>
+            <p class="price">$10</p>
+            <p class="per-month">per month</p>
+          </th>
+          <th scoop="col" class="head-text">
+            <p class="head-text">econom</p>
+            <p class="price ">$30</p>
+            <p class="per-month">per month</p>
+          </th>
+          <th scoop="col" class="head-text">
+            <p class="head-text">standard</p>
+            <p class="price ">$59</p>
+            <p class="per-month">per month</p>
+          </th>
+          <th scoop="col" class="head-text">
+            <p class="head-text">professional</p>
+            <p class="price">$99</p>
+            <p class="per-month">per month</p>
+          </th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td class="first-col dark-gray">Amount of space</td>
-          <td class="light-gray">20GB</td>
-          <td class="dark-gray">40GB</td>
-          <td class="light-gray">110GB</td>
-          <td class="dark-gray">Unlimeted</td>
+          <th scope="row" class="first-col dark-gray cell">Amount of space</td>
+          <td class="light-gray cell">20GB</td>
+          <td class="dark-gray cell">40GB</td>
+          <td class="light-gray cell">110GB</td>
+          <td class="dark-gray cell">Unlimeted</td>
+        </th>
+        <tr>
+          <th scope="row" class="first-col light-gray cell">Bandwidth per month</th>
+          <td class="lightest-color cell">120GB</td>
+          <td class="light-gray cell">240GB</td>
+          <td class="lightest-color cell">610GB</td>
+          <td class="light-gray cell">1300GB</td>
         </tr>
         <tr>
-          <td class="first-col">Bandwidth per month</td>
-          <td>120GB</td>
-          <td>240GB</td>
-          <td>610GB</td>
-          <td>1300GB</td>
+          <th scope="row" class="first-col dark-gray cell">Email accounts</th>
+          <td class="light-gray cell">1</td>
+          <td class="dark-gray cell">15</td>
+          <td class="light-gray cell">60</td>
+          <td class="dark-gray cell">Unlimeted</td>
         </tr>
         <tr>
-          <td class="first-col dark-gray">Email accounts</td>
-          <td class="light-gray">1</td>
-          <td class="dark-gray">15</td>
-          <td class="light-gray">60</td>
-          <td class="dark-gray">Unlimeted</td>
+          <th scope="row" class="first-col light-gray cell">MYSQL databases</th>
+          <td class="lightest-color cell">1</td>
+          <td class="light-gray cell">15</td>
+          <td class="lightest-color cell">60</td>
+          <td class="light-gray cell">Unlimeted</td>
         </tr>
         <tr>
-          <td class="first-col">MYSQL databases</td>
-          <td >1</td>
-          <td>15</td>
-          <td>60</td>
-          <td>Unlimeted</td>
+          <th scope="row" class="first-col dark-gray cell">25h support</th>
+          <td class="light-gray cell">No</td>
+          <td class="dark-gray cell">Yes</td>
+          <td class="light-gray cell">Yes</td>
+          <td class="dark-gray cell">Yes</td>
         </tr>
         <tr>
-          <td class="first-col dark-gray">25h support</td>
-          <td class="light-gray">No</td>
-          <td class="dark-gray">Yes</td>
-          <td class="light-gray">Yes</td>
-          <td class="dark-gray">Yes</td>
-        </tr>
-        <tr>
-          <td class="first-col">Support tickets per month</td>
-          <td>2</td>
-          <td>6</td>
-          <td>14</td>
-          <td>20</td>
+          <th scope="row" class="first-col light-gray cell">Support tickets per month</th>
+          <td class="lightest-color cell">2</td>
+          <td class="light-gray cell">6</td>
+          <td class="lightest-color cell">14</td>
+          <td class="light-gray cell">20</td>
         </tr>
       </tbody>
 
       <tfoot>
-        <td class="dark-gray"></td>
-        <td class="light-gray"> <button class="button" >START</button></td>
-        <td class="dark-gray"> <button class="button">START</button></td>
-        <td class="light-gray"> <button class="button">START</button></td>
-        <td class="dark-gray"> <button class="button">START</button></td>
+        <td class="dark-gray cell"></td>
+        <td class="light-gray cell"><button class="button cell">start</button></td>
+        <td class="dark-gray cell"><button class="button cell">start</button></td>
+        <td class="light-gray cell"><button class="button cell">start</button></td>
+        <td class="dark-gray cell"><button class="button cell">start</button></td>
       </tfoot>
     </table>
   </body>
 </html>
-
