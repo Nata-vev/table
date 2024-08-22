@@ -4,18 +4,14 @@
   padding: 0;
 }
 
-th {
-  padding: 0 0 20px 0;
+:root {
+  font-family: Arial;
+  font-size: 20px;
 }
 
-td {
-  border: 1px solid #dcdc;
-}
 .table {
   border-collapse: collapse;
   text-align: center;
-  font-size: 25px;
-  font-weight: bold;
   width: 96%;
   min-height: 96vh;
   margin: auto;
@@ -32,34 +28,38 @@ td {
     rgb(58, 58, 112),
     rgb(83, 83, 177),
     rgb(41, 41, 99),
-    rgb(2, 2, 37));
+    rgb(2, 2, 37)
+  );
 }
 
 .head-text {
+  margin: 30px 0 50px 0;
   font-size: 30px;
 }
 
-.th-plan {
-  padding: 50px;
+.price {
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 10px;
 }
-
-.dollars {
-  font-size: 45px;
+.per-month{
+  margin-bottom: 20px;
 }
-
 .first-col {
   text-align: left;
-  padding-left: 50px;
+  text-indent: 50px;
+}
+
+.cell {
+  padding: 20px;
 }
 
 .button {
-  padding: 15px;
   background-color: #e0e0e0;
-  font-size: large;
-  width: 50%;
-  margin-bottom: 20px;
-  font-weight: inherit;
-  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: inherit;
+  padding: 15px 30px 15px 30px;
 }
 
 .dark-gray {
@@ -68,4 +68,8 @@ td {
 
 .light-gray {
   background: #ebe7e7;
+}
+
+.lightest-color {
+  background-color: #f5f0f0;
 }
